@@ -1,0 +1,9 @@
+{
+    "validSearches": [
+      "Pix",
+      "INSS",
+      "Empréstimo"
+    ],
+    "invalidSearch": "abcxyz123456"
+  
+}
