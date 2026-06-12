@@ -1,4 +1,12 @@
 {
+  "name": "testeweb_qa",
+  "version": "1.0.0",
+  "description": "Automação de testes para o Blog do Agi",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test:ci": "cypress run --browser chrome"
+  },
   "cypress-cucumber-preprocessor": {
     "stepDefinitions": "cypress/support/step_definitions/[filepath].steps.js"
   },
